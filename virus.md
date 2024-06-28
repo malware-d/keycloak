@@ -203,6 +203,11 @@ com.example.keycloak.CustomEventListenerProviderFactory
 ```sh
 mvn clean package
 ```
+Xóa tệp 'AppTest.java' trong thư mục 'src/test/java/com/example/keycloak' - đây là file được tự động tạo khi tạo project bằng maven, không liên quan đến plugin
+```sh
+rm src/test/java/com/example/keycloak/AppTest.java
+``` 
+
 2. Deploy tệp JAR vào Keycloak
 Sao chép tệp JAR (target/custom-event-listener-1.0-SNAPSHOT.jar) vào thư mục providers của Keycloak
 3. Khởi động lại Keycloak
