@@ -1,0 +1,3 @@
+com/example/keycloak/App.class
+com/example/keycloak/CustomEventListenerProvider.class
+com/example/keycloak/CustomEventListenerProviderFactory.class
